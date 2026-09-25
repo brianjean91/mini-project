@@ -18,7 +18,7 @@ a {
   color: #1a2341;
   font-size: 20px;
   font-weight: 300;
-  text-underline offset: 4px;
+  text-underline-offset: 4px;
   text-decoration-thickness: 1px;
 }
 ul {
@@ -210,7 +210,7 @@ justify-content: center;
 .section__card--about {
  
   background-color: #ffeaaf;
-  border-right: 20px solid; #badcee;
+  border-right: 20px solid #badcee;
 
 }
 .section__card--social {
@@ -261,7 +261,7 @@ padding: 0 24px
 .section__card--contact {
   border: 1.5px dashed #c231c2;
   width: 96%;
-  boreder-radius: 16px;
+  border-radius: 16px;
 }
 
 form {
@@ -304,7 +304,7 @@ footer {
 }
 
 .footer__links {
-margin-bottoms: 16px;
+margin-bottom: 16px;
 
 }
 
