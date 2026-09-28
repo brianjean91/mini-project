@@ -295,6 +295,7 @@ RESPONSIVENESS
 SMALLER SCREENS
 
 */
+
 @media(max-width: 1024px) {
   .section__description--para {
     font-size: 20px;
@@ -305,12 +306,22 @@ SMALLER SCREENS
   a{
     font-size: 16px;
   }
+
+  .about__row, .social__row {
+    flex-direction: column;
+  }
+
+  .section__img--wrapper {
+    width: 100%;
+    max-width: 500px;
+  }
+
   .course {
     gap: 4px;
 
   }
   .course__title {
-    margin-left: o;
+    margin-left: 0;
     font-size: 40px;
   }
   .hero {
