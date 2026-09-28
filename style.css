@@ -195,7 +195,7 @@ footer {
   margin: 0 auto;
 }
 
-.section__card--title {
+.section__card {
   border: 1.5px dashed #cbd5e1;
   padding: 40px 20px;
   width: 100%;
@@ -203,8 +203,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-justify-content: center;
-
+  justify-content: center;
 }
 
 .section__card--about {
@@ -248,7 +247,7 @@ padding: 0 24px
 
 }
 .section__description--wrapper {
-  width: 700%;
+  width: 70%;
   padding: 0 24px;
 }
 
@@ -281,12 +280,7 @@ padding: 6px 12px;
 width: 500px;
 border-radius: 6px;
 }
-section__card--social .section__description--wrapper {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
+.section__card--social .section__description--wrapper {
 
 .section__card--social img {
   width: 45%;
