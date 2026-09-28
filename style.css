@@ -195,7 +195,7 @@ footer {
   margin: 0 auto;
 }
 
-.section__card {
+.section__card--title {
   border: 1.5px dashed #cbd5e1;
   padding: 40px 20px;
   width: 100%;
@@ -237,7 +237,7 @@ padding: 0 24px
 
 }
 
-.section__title {
+.section__card--title {
   font-family: "Space Mono", monospace;
   letter-spacing: 8px;
 
@@ -248,7 +248,7 @@ padding: 0 24px
 
 }
 .section__description--wrapper {
-  width: 70%;
+  width: 700%;
   padding: 0 24px;
 }
 
@@ -280,6 +280,21 @@ font-size: 20px;
 padding: 6px 12px;
 width: 500px;
 border-radius: 6px;
+}
+section__card--social .section__description--wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.section__card--social img {
+  width: 45%;
+}
+
+.section__card--social .section__description--para {
+  width: 55%;
+  margin-bottom: 0;
 }
 
 /*
