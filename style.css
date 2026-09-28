@@ -1,13 +1,9 @@
-
-
 * {
-  
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
-
 }
 body {
   background-color: #edf1f5;
@@ -27,12 +23,11 @@ ul {
 
 li {
   list-style: none;
- padding-left: 16px;
-
+  padding-left: 16px;
 }
 
-h1{ font-size: 60px;
-
+h1 {
+  font-size: 60px;
 }
 
 img {
@@ -43,9 +38,6 @@ img {
 NAV
 
 */
-
-
-
 
 nav {
   height: 60px;
@@ -64,7 +56,6 @@ nav {
 .logo__img {
   width: 40px;
   margin-top: 8px;
- 
 }
 .logo__text {
   font-size: 20px;
@@ -80,7 +71,6 @@ HEADER
 header {
   width: 100%;
   margin: 0 auto;
-
 }
 .row {
   width: 100%;
@@ -94,7 +84,6 @@ header {
 
 .row__course {
   border-left: 1px dashed #cbd5e1;
-
 }
 
 .course {
@@ -105,24 +94,19 @@ header {
   gap: 20px;
   align-items: center;
   padding: 8px 0;
-
 }
 .course__icon {
   font-size: 80px;
-
 }
 
 .course__text {
- padding: 20px
-
+  padding: 20px;
 }
 .course__selection {
   font-family: "Space Mono", monospace;
   font-weight: bold;
   color: #727892;
   letter-spacing: 0.1px;
-
-
 }
 
 .course__title {
@@ -130,13 +114,12 @@ header {
   font-size: 44px;
   margin-left: 32px;
   letter-spacing: 2px;
-
 }
 .hero {
-border: 1.5px solid #cbd5e1;
+  border: 1.5px solid #cbd5e1;
   border-right: 20px solid #badcee;
   border-radius: 0 16px 16px 0;
-  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
   padding: 40px;
   width: 100%;
   max-width: 1200px;
@@ -146,15 +129,12 @@ border: 1.5px solid #cbd5e1;
   align-items: center;
   justify-content: center;
   background-color: #fefefe;
-
 }
 
 .hero__img--wrapper {
   max-width: 540px;
-
 }
 .hero__description {
-
   margin-left: 60px;
 }
 .subheader {
@@ -162,22 +142,20 @@ border: 1.5px solid #cbd5e1;
   margin: 16px 0 24px 0;
   font-weight: 400;
   color: #64748b;
-
 }
 
 button {
-background-color:#c231c2;
-width: 95%;
-color: white;
-border: none;
-padding: 8px 18px;
-font-size: 24px;
-cursor: pointer;
-border-radius: 10px;
-font-family: "Space Mono", monospace;
-margin: 0 auto;
+  background-color: #c231c2;
+  width: 95%;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Space Mono", monospace;
+  margin: 0 auto;
 }
-
 
 /*
 
@@ -207,16 +185,12 @@ footer {
 }
 
 .section__card--about {
- 
   background-color: #ffeaaf;
   border-right: 20px solid #badcee;
-
 }
 .section__card--social {
-  
   background-color: #badcee;
   border-right: 20px solid #ef4810;
-
 }
 
 .section__description {
@@ -225,15 +199,15 @@ footer {
   align-items: center;
 }
 
-.about__row, .social__row {
+.about__row,
+.social__row {
   justify-content: start;
   align-items: center;
 }
 
 .section__img--wrapper {
-width: 60%;
-padding: 0 24px
-
+  width: 60%;
+  padding: 0 24px;
 }
 
 .section__card--title {
@@ -244,7 +218,6 @@ padding: 0 24px
   font-weight: 600;
   margin-bottom: 16px;
   letter-spacing: 2px;
-
 }
 .section__description--wrapper {
   width: 70%;
@@ -269,40 +242,17 @@ form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-gap: 12px;
+  gap: 12px;
   padding: 0px;
 }
 
-input, textarea {
-margin-bottom: 24px;
-font-size: 20px;
-padding: 6px 12px;
-width: 500px;
-border-radius: 6px;
-}
-.section__card--social .section__description--wrapper {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
-
-.section__card--social img {
-  width: 45%;
-}
-
-.section__card--social .section__description--para {
-  width: 55%;
-  margin-bottom: 0;
-}
-
-.section__card--social img {
-  width: 45%;
-}
-
-.section__card--social .section__description--para {
-  width: 55%;
-  margin-bottom: 0;
+input,
+textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+  width: 500px;
+  border-radius: 6px;
 }
 
 /*
@@ -315,11 +265,10 @@ footer {
   background-color: #badcee;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   border-top: 1.5px dashed #cbd5e1;
   padding: 12px 20px;
   border-radius: 20% 20% 0 0;
-
 }
 
 .footer__logo {
@@ -327,10 +276,9 @@ footer {
 }
 
 .footer__links {
-margin-bottom: 16px;
-
+  margin-bottom: 16px;
 }
 
 .footer__link {
-padding: 0 16px 16px 0;
+  padding: 0 16px 16px 0;
 }
